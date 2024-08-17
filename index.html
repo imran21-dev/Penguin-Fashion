@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <link rel="shortcut icon" href="images/penguin.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .roboto{
+            font-family: Roboto;
+        }
+        .bebas{
+            font-family: Bebas Neue;
+        }
+        .mont{
+            font-family: Montserrat;
+        }
+        *{
+            font-family: roboto;
+            transition: .2s ease-in-out;
+        }
+
+    </style>
+</head>
+<body class="bg-white">
+    <!-- This is header Section -->
+      <header class="bg-[#FFFBF0] px-80 flex flex-col gap-7 pb-32">
+         <nav class="flex justify-between items-center py-3">
+            <div class="flex h-10 items-center gap-2">
+                <img class="h-full" src="images/penguin.png" alt="">
+                <h2 class="mont font-bold text-2xl text-[#FF5200]">Penguin <span class="text-[#363958]">Fashion</span> </h2>
+            </div>
+            <div class="md:hidden lg:block sm:hidden">
+                <ul class="flex font-medium text-base items-center text-[#363958]">
+                    <li><a class="py-3 px-8 hover:bg-[#FF5200] hover:text-white" href="#">Home</a></li>
+                    <li><a class="py-3 px-8 hover:bg-[#FF5200] hover:text-white" href="#">Product</a></li>
+                    <li><a class="py-3 px-8 hover:bg-[#FF5200] hover:text-white" href="#">About us</a></li>
+                    <li><a class="py-3 px-8 hover:bg-[#FF5200] hover:text-white" href="#">Contact us</a></li>
+                </ul>
+                
+            </div>
+            <a href="#" class="py-2 px-8 hover:bg-[#FF5200] hover:text-white md:hidden lg:hidden sm:block"><i class="fa-duotone fa-solid fa-bars text-sm"></i></a>
+         </nav>
+         <section class="flex items-center justify-between">
+                <div class="w-2/5 flex flex-col items-start">
+                    <h1 class="uppercase text-[80px] bebas text-[#FABE4C] leading-[100px]">Be the penguins <br> <span class="bebas text-[#363958]"> of winter</span> </h1>
+                    <p class="text-base text-[#363958]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit pariatur magni in mollitia voluptatum soluta!</p>
+                    <button class="py-3 px-8 bg-gradient-to-br from-[#FABE4C] to-[#FF5200] hover:text-white flex items-center gap-2 text-white rounded-lg mt-3 hover:px-9"><i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+                </div>
+                <div>
+                    <img src="images/model.png" alt="">
+                </div>
+         </section>
+      </header>
+         <!-- Main -->
+      <main class="px-80">
+        <section class="py-10">
+              <h1 class="text-5xl bebas text-[#363958]">Woman Jacket</h1>
+               <section class="grid grid-cols-3 mt-8 justify-evenly content-evenly items-center justify-items-center">
+                      <div class="bg-white w-[85%] p-5 rounded-3xl flex flex-col gap-2 shadow-md hover:shadow-xl">
+                          <div class="bg-[#F1F1F1] w-full rounded-3xl flex items-center justify-center p-5 w-full">
+                            <img class="w-3/4" src="images/jacket-1.png" alt="">
+                          </div>
+                          <h2 class="font-bold text-2xl text-[#363958]">Yellow Coat Jacket</h2>
+                          <p class="text-[#363958]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellat earum ea? Atque?</p>
+                          <section class="flex items-center justify-between">
+                             <h1 class="text-3xl font-bold text-[#FABE4C]">$230</h1>
+                             <button class="py-3 px-8 bg-gradient-to-br from-[#FABE4C] to-[#FF5200] hover:text-white flex items-center gap-2 text-white rounded-lg hover:px-9"><i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+                          </section>
+                      </div>
+                      <div class="bg-white w-[85%] p-5 rounded-3xl flex flex-col gap-2 shadow-md hover:shadow-xl">
+                          <div class="bg-[#F1F1F1] w-full rounded-3xl flex items-center justify-center p-5 w-full">
+                            <img class="w-3/4" src="images/jacket-2.png" alt="">
+                          </div>
+                          <h2 class="font-bold text-2xl text-[#363958]">Ladies Jacket </h2>
+                          <p class="text-[#363958]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellat earum ea? Atque?</p>
+                          <section class="flex items-center justify-between">
+                             <h1 class="text-3xl font-bold text-[#FABE4C]">$230</h1>
+                             <button class="py-3 px-8 bg-gradient-to-br from-[#FABE4C] to-[#FF5200] hover:text-white flex items-center gap-2 text-white rounded-lg hover:px-9"><i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+                          </section>
+                      </div>
+                      <div class="bg-white w-[85%] p-5 rounded-3xl flex flex-col gap-2 shadow-md hover:shadow-xl">
+                          <div class="bg-[#F1F1F1] w-full rounded-3xl flex items-center justify-center p-5 w-full">
+                            <img class="w-3/4" src="images/jacket-3.png" alt="">
+                          </div>
+                          <h2 class="font-bold text-2xl text-[#363958]">Woman Leather Jacket </h2>
+                          <p class="text-[#363958]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellat earum ea? Atque?</p>
+                          <section class="flex items-center justify-between">
+                             <h1 class="text-3xl font-bold text-[#FABE4C]">$230</h1>
+                             <button class="py-3 px-8 bg-gradient-to-br from-[#FABE4C] to-[#FF5200] hover:text-white flex items-center gap-2 text-white rounded-lg hover:px-9"><i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+                          </section>
+                      </div>
+                
+                 
+               </section>
+        </section>
+
+
+        <section class="py-10">
+              <h1 class="text-5xl bebas text-[#363958]">Man Jacket</h1>
+               <section class="grid grid-cols-3 mt-8 justify-evenly content-evenly items-center justify-items-center">
+                      <div class="bg-white w-[85%] p-5 rounded-3xl flex flex-col gap-2 shadow-md hover:shadow-xl">
+                          <div class="bg-[#F1F1F1] w-full rounded-3xl flex items-center justify-center p-5 w-full">
+                            <img class="w-3/4" src="images/jacket-4.png" alt="">
+                          </div>
+                          <h2 class="font-bold text-2xl text-[#363958]">Yellow Coat Jacket</h2>
+                          <p class="text-[#363958]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellat earum ea? Atque?</p>
+                          <section class="flex items-center justify-between">
+                             <h1 class="text-3xl font-bold text-[#FABE4C]">$230</h1>
+                             <button class="py-3 px-8 bg-gradient-to-br from-[#FABE4C] to-[#FF5200] hover:text-white flex items-center gap-2 text-white rounded-lg hover:px-9"><i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+                          </section>
+                      </div>
+                      <div class="bg-white w-[85%] p-5 rounded-3xl flex flex-col gap-2 shadow-md hover:shadow-xl">
+                          <div class="bg-[#F1F1F1] w-full rounded-3xl flex items-center justify-center p-5 w-full">
+                            <img class="w-3/4" src="images/jacket-5.png" alt="">
+                          </div>
+                          <h2 class="font-bold text-2xl text-[#363958]">Ladies Jacket </h2>
+                          <p class="text-[#363958]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellat earum ea? Atque?</p>
+                          <section class="flex items-center justify-between">
+                             <h1 class="text-3xl font-bold text-[#FABE4C]">$230</h1>
+                             <button class="py-3 px-8 bg-gradient-to-br from-[#FABE4C] to-[#FF5200] hover:text-white flex items-center gap-2 text-white rounded-lg hover:px-9"><i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+                          </section>
+                      </div>
+                      <div class="bg-white w-[85%] p-5 rounded-3xl flex flex-col gap-2 shadow-md hover:shadow-xl">
+                          <div class="bg-[#F1F1F1] w-full rounded-3xl flex items-center justify-center p-5 w-full">
+                            <img class="w-3/4" src="images/jacket-6.png" alt="">
+                          </div>
+                          <h2 class="font-bold text-2xl text-[#363958]">Woman Leather Jacket </h2>
+                          <p class="text-[#363958]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur repellat earum ea? Atque?</p>
+                          <section class="flex items-center justify-between">
+                             <h1 class="text-3xl font-bold text-[#FABE4C]">$230</h1>
+                             <button class="py-3 px-8 bg-gradient-to-br from-[#FABE4C] to-[#FF5200] hover:text-white flex items-center gap-2 text-white rounded-lg hover:px-9"><i class="fa-solid fa-cart-shopping"></i>BUY NOW</button>
+                          </section>
+                      </div>
+                
+                 
+               </section>
+        </section>
+      </main>
+</body>
+</html>
